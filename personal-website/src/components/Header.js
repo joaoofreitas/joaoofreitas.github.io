@@ -1,17 +1,16 @@
 import React from "react"
 import "../style.css"
 import photo from '../images/profile.jpg'
-import headerTags from './headerTags'
+import HeaderTags from './HeaderTags'
 
-const App = () => {
+const Header = () => {
     return(
-        <section className="header">
+        <div className="header">
             <img src={photo} class="profilePic" />
             <h1>João Freitas</h1>
-            <headerTags />
-        </section>
-
+            <HeaderTags />
+        </div>
     );
 }
 
-export default App;
+export default Header;
