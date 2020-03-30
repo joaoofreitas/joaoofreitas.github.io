@@ -3,19 +3,18 @@
   src: local('LucidaGrande'), url(./fonts/LucidaGrande.ttf) format('truetype');
 }
 
-
 body{
   margin: 0;
   padding : 0;
 }
 
 .header{
-  width: 100%;
+  width: 100vh;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #111;
+  background-color: #111111;
 }
 
 .header h1{
@@ -51,4 +50,21 @@ body{
   vertical-align: middle;
   position: absolute;
   bottom: 410px;
+}
+
+.whoami h1{
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.tab {
+  position:relative; left: 3.5%;
+}
+
+.copyright{
+  margin: 30px;
+  vertical-align: middle;
+  text-align: center;
+  color: #111;
 }
