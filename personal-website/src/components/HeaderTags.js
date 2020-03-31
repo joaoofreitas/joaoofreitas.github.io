@@ -1,7 +1,6 @@
 import React from 'react'
 import { Tag } from 'antd';
 import 'antd/dist/antd.css';
-import '../style.css'
 
 const HeaderTags = () => {
     return(
@@ -9,7 +8,7 @@ const HeaderTags = () => {
           <Tag color="purple">Programming</Tag>
           <Tag color="red">Electronics</Tag>
           <Tag color="green">Networking and Security</Tag>
-          <Tag color="blue">UNIX/Linux System Administration</Tag>
+          {/*<Tag color="blue">UNIX/Linux System Administration</Tag>*/}
         </div>
     )
 }
