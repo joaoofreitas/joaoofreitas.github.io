@@ -3,12 +3,12 @@
   src: local('LucidaGrande'), url(./fonts/LucidaGrande.ttf) format('truetype');
 }
 
-body{
+body {
   margin: 0;
-  padding : 0;
+  padding: 0;
 }
 
-.header{
+.header {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -16,7 +16,7 @@ body{
   justify-content: center;
 }
 
-.header h1{
+.header h1 {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -24,29 +24,45 @@ body{
   font-size: 28px;
   color: #eeeeee;
   padding: 10px;
-  text-shadow: 0 2px 5px rbga(255, 255, 255,.5);
+  text-shadow: 0 2px 5px rbga(255, 255, 255, .5);
   border: blanchedalmond;
   border-radius: 3px;
 }
 
-.profilePic{
-  margin: 0;
-  padding: 0;
-  vertical-align: middle;
-  width: 135px;
-  height: 135px;
-  border-radius: 50%;
-  position: fixed;
-  top: 27.5%;
-  border: 2px solid white;
-  
+@media screen and (max-width:767px) and (orientation:landscape){
+  .profilePic {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    position: fixed;
+    top: 7.5%;
+    border: 2px solid blanchedalmond;
+
+  }
+}
+
+@media screen and (orientation:portrait){
+  .profilePic {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    position: fixed;
+    top: 27.5%;
+    border: 2px solid blanchedalmond;
+  }
 }
 
 .ant-tag {
   margin-bottom: 8px;
 }
 
-.tags{
+.tags {
   width: auto;
   height: auto;
   margin: 0;
@@ -56,15 +72,15 @@ body{
   top: 62.5%;
 }
 
-.whoami{
+.whoami {
+  font-family: LucidaGrande;
   position: fixed;
   text-align: center;
-  padding: 15%;
+  padding: 20%;
   top: 0%;
-  font-family: LucidaGrande;
 }
 
-.whoami h1{
+.whoami h1 {
   margin: 0;
   padding: 0;
   font-family: LucidaGrande;
@@ -72,16 +88,17 @@ body{
   font-weight: bold;
 }
 
-.skills{
+.skills {
   font-family: LucidaGrande;
   position: fixed;
   text-align: center;
-  padding: 15%;
+  padding: 25%;
+  ;
   top: 0%;
-  
+
 }
 
-.skills h1{
+.skills h1 {
   font-family: LucidaGrande;
   margin: 0;
   padding: 0;
@@ -89,13 +106,13 @@ body{
   font-weight: bold;
 }
 
-.copyright{
-  position: absolute;
+.copyright {
+  position: fixed;
   width: 100%;
   color: #111;
   line-height: 40px;
   text-align: center;
   font-size: 0.9em;
   font-weight: bold;
-  bottom:0;
+  bottom: 0;
 }

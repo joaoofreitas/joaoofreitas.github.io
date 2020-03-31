@@ -11,7 +11,7 @@ const App = () => {
             <Parallax pages={2}>
                 <ParallaxLayer offset={0} speed={0} style={{ backgroundColor: '#DDD' }} />
                 <ParallaxLayer factor={1} offset={0} speed={4.5} style={{ backgroundColor: '#111' }} />
-                <ParallaxLayer offset={0} speed={3}>
+                <ParallaxLayer offset={0} speed={6}>
                     <Header />
                 </ParallaxLayer>
                 <ParallaxLayer factor={1} offset={1} speed={0} style={{ backgroundColor: '#DDD' }} />
