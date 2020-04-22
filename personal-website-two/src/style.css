@@ -8,6 +8,10 @@ body {
   margin-top: 5%;
   background-color: #FFFFFF;
 }
+.darkMode{
+  background-color:#696969!important;
+  color:white!important;
+}
 
 .Header {
   text-align: center;
