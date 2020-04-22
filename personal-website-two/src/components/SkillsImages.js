@@ -7,6 +7,8 @@ import npm from '../images/npm.svg'
 import python from '../images/python.svg'
 import react from '../images/react.svg'
 
+//need to clean this className mess
+
 const SkillsImages = () => {
     return(
         <Container fluid>
