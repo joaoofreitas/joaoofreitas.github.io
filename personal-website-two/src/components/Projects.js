@@ -16,7 +16,7 @@ const Projects = () => {
             </blockquote>
             <h6 id="-telegram-server-monitor-https-github-com-joaoofreitas-server-telegram-monitor-"><a
                     href="https://github.com/joaoofreitas/server-telegram-monitor">telegram-server-monitor</a>
-            <span role="img" aria-label="laptop">💻</span>
+            <span role="img" aria-label="laptop"> 💻</span>
             </h6>
             <blockquote>
                 <p>Small project that I use to monitor my small RaspberryPi server, without SSH. On any device...</p>
