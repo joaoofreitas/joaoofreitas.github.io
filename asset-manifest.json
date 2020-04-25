@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-personal-website/static/css/main.d0e2bbf8.chunk.css",
+    "main.js": "/react-personal-website/static/js/main.774d4ac3.chunk.js",
+    "main.js.map": "/react-personal-website/static/js/main.774d4ac3.chunk.js.map",
+    "runtime-main.js": "/react-personal-website/static/js/runtime-main.4ec72326.js",
+    "runtime-main.js.map": "/react-personal-website/static/js/runtime-main.4ec72326.js.map",
+    "static/css/2.1ce9b504.chunk.css": "/react-personal-website/static/css/2.1ce9b504.chunk.css",
+    "static/js/2.f74179a5.chunk.js": "/react-personal-website/static/js/2.f74179a5.chunk.js",
+    "static/js/2.f74179a5.chunk.js.map": "/react-personal-website/static/js/2.f74179a5.chunk.js.map",
+    "index.html": "/react-personal-website/index.html",
+    "precache-manifest.4b469737baaf4a62c9979f90330664f4.js": "/react-personal-website/precache-manifest.4b469737baaf4a62c9979f90330664f4.js",
+    "service-worker.js": "/react-personal-website/service-worker.js",
+    "static/css/2.1ce9b504.chunk.css.map": "/react-personal-website/static/css/2.1ce9b504.chunk.css.map",
+    "static/css/main.d0e2bbf8.chunk.css.map": "/react-personal-website/static/css/main.d0e2bbf8.chunk.css.map",
+    "static/js/2.f74179a5.chunk.js.LICENSE.txt": "/react-personal-website/static/js/2.f74179a5.chunk.js.LICENSE.txt",
+    "static/media/arduino.svg": "/react-personal-website/static/media/arduino.2773f213.svg",
+    "static/media/cpp.svg": "/react-personal-website/static/media/cpp.18713802.svg",
+    "static/media/docker.svg": "/react-personal-website/static/media/docker.2e0fcd7b.svg",
+    "static/media/style.css": "/react-personal-website/static/media/icons-20.cef8cdbb.woff",
+    "static/media/linux.svg": "/react-personal-website/static/media/linux.aa7fd496.svg",
+    "static/media/node.svg": "/react-personal-website/static/media/node.f4a010b8.svg",
+    "static/media/profilePic.jpeg": "/react-personal-website/static/media/profilePic.3b2095cf.jpeg",
+    "static/media/python.svg": "/react-personal-website/static/media/python.fbef321e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ec72326.js",
+    "static/css/2.1ce9b504.chunk.css",
+    "static/js/2.f74179a5.chunk.js",
+    "static/css/main.d0e2bbf8.chunk.css",
+    "static/js/main.774d4ac3.chunk.js"
+  ]
+}
