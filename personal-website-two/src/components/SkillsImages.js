@@ -5,7 +5,7 @@ import esp32 from '../images/esp32.png'
 import linux from '../images/linux.svg'
 import npm from '../images/npm.svg'
 import python from '../images/python.svg'
-import react from '../images/react.svg'
+import docker from '../images/docker.svg'
 
 //need to clean this className mess
 
@@ -14,24 +14,24 @@ const SkillsImages = () => {
         <Container fluid>
         <Row className='skillImageRow'>
             <Col className='skillImageCol'>
-                <img className='skillImage' src={cpp}></img>
+                <img className='skillImage' src={cpp} alt=''></img>
             </Col>
             <Col className='skillImageCol'>
-                <img className='skillImage' src={esp32}></img>
+                <img className='skillImage' src={esp32} alt=''></img>
             </Col>
             <Col className='skillImageCol'>
-                <img className='skillImage' src={linux}></img>
+                <img className='skillImage' src={linux} alt=''></img>
             </Col>
         </Row>
         <Row className='skillImageRow'>
             <Col className='skillImageCol'>
-                <img className='skillImage' src={npm}></img>
+                <img className='skillImage' src={npm} alt=''></img>
             </Col>
             <Col className='skillImageCol'>
-                <img className='skillImage' src={react}></img>
+                <img className='skillImage' src={docker} alt=''></img>
             </Col>
             <Col className='skillImageCol'>
-                <img className='skillImage' src={python}></img>
+                <img className='skillImage' src={python} alt=''></img>
             </Col>
         </Row>
         </Container>

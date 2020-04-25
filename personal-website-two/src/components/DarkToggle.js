@@ -1,9 +1,6 @@
 import React from 'react'
 import {Switch} from '@blueprintjs/core'
-import { Icon, Intent } from "@blueprintjs/core";
-import { IconNames } from "@blueprintjs/icons";
-
-
+import { Icon} from "@blueprintjs/core";
 
 class DarkToggle extends React.Component {
     render(){
