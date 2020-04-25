@@ -1,9 +1,9 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap';
 import cpp from '../images/cpp.svg'
-import esp32 from '../images/esp32.png'
+import arduino from '../images/arduino.svg'
 import linux from '../images/linux.svg'
-import npm from '../images/npm.svg'
+import node from '../images/node.svg'
 import python from '../images/python.svg'
 import docker from '../images/docker.svg'
 
@@ -17,7 +17,7 @@ const SkillsImages = () => {
                 <img className='skillImage' src={cpp} alt=''></img>
             </Col>
             <Col className='skillImageCol'>
-                <img className='skillImage' src={esp32} alt=''></img>
+                <img className='skillImage' src={arduino} alt=''></img>
             </Col>
             <Col className='skillImageCol'>
                 <img className='skillImage' src={linux} alt=''></img>
@@ -25,7 +25,7 @@ const SkillsImages = () => {
         </Row>
         <Row className='skillImageRow'>
             <Col className='skillImageCol'>
-                <img className='skillImage' src={npm} alt=''></img>
+                <img className='skillImage' src={node} alt=''></img>
             </Col>
             <Col className='skillImageCol'>
                 <img className='skillImage' src={docker} alt=''></img>

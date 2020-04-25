@@ -11,7 +11,7 @@ const Skills = () => {
             </p>
             <p>
             Aswell as some good knowledge on System and Network Administration.
-            I also have interest in being a Backend developer and DevOps developer.
+            I also have interest in being a Backend/DevOps developer.
             </p>
         </div>
     );
