@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tag, Divider } from "@blueprintjs/core";
+import { Tag } from "@blueprintjs/core";
 
 const Tags = () => {
     return(
@@ -8,21 +8,21 @@ const Tags = () => {
                 className="tags"
                 minimal="true"
                 interactive="true"
-                intent="none">
+                intent="Primary">
                 Programming </Tag>
-                <Tag  
+            <Tag  
                 className="tags"
                 minimal="true"
                 interactive="true"
                 intent="danger">
                 Eletronics </Tag>
-                <Tag  
+            <Tag  
                 className="tags"
                 minimal="true"
                 interactive="true"
                 intent="warning">
                 Networking and Security </Tag>
-                <Tag  
+            <Tag  
                 className="tags"
                 minimal="true"
                 interactive="true"

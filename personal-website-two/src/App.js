@@ -1,10 +1,12 @@
 import React from 'react';
 import Header from './components/Header'
+import DarkToggle from './components/DarkToggle'
 import About from './components/About'
 import CustomDivider from './components/CustomDivider'
 import Skills from './components/Skills'
 import SkillsImages from './components/SkillsImages'
 import Projects from './components/Projects'
+import Copyright from './components/Copyright'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
@@ -12,7 +14,7 @@ import './style.css'
 
 class App extends React.Component {
   state = {
-    darkMode:false,
+    darkMode:true,
   }
 
   darkMode = () => {
@@ -26,10 +28,10 @@ class App extends React.Component {
  
   render(){ 
 
-
     return(
     <div>
-      <Header click={this.darkMode}/>
+      <DarkToggle click={this.darkMode}/>
+      <Header/>
       <CustomDivider/>
       <About />
       <CustomDivider/>
@@ -38,6 +40,7 @@ class App extends React.Component {
       <CustomDivider/>
       <Projects/>
       <CustomDivider/>
+      <Copyright/>
     </div>
     )
   }

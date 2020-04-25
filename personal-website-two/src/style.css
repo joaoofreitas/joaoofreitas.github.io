@@ -8,8 +8,9 @@ body {
   margin-top: 5%;
   background-color: #FFFFFF;
 }
+
 .darkMode{
-  background-color:#696969!important;
+  background-color:#0f0f0f!important;
   color:white!important;
 }
 
@@ -35,6 +36,7 @@ body {
 .customDivider {
   margin-top: 50px;
   margin-bottom: 50px;
+  background-color: #C5CFC6;
 }
 
 .about {
@@ -70,3 +72,11 @@ body {
 .projects h1{
   text-align: center;
 }
+
+.copyright{
+  text-align: center; 
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+

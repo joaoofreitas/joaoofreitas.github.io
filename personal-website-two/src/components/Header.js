@@ -3,16 +3,14 @@ import profilePic from '../images/profilePic.jpeg'
 import Tags from './Tags'
 
 
-class Header extends React.Component {
-    render(){ 
+const Header = () => {
     return(
         <div className='Header'>
             <img src={profilePic} alt=""/>
-            <h2 onClick={this.props.click}>João Freitas</h2>
+            <h2>João Freitas</h2>
             <Tags/>
         </div>
-    )
-    }
-};
+    );
+}
 
 export default Header;
